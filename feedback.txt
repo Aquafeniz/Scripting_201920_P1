@@ -1,0 +1,20 @@
+Feedback
+
+* Hay lógica que agrega concursantes, pero permite que una concursante pueda participar *después* de registrarla. La restricción es para antes. (0.2 / 0.25)
+* No hay lógica para determinar a la concursante ganadora. (0.0 / 0.25)
+* No hay lógica para determinar que una concursante pueda participar si tiene un vestido equipado (0.0 / 0.5)
+* Hay lógica para equipar accesorios, pero falla, porque se está incrementando dos veces la variable de control en ambos ciclos, así que hay algunos accesorios que no se validan.
+* Hay lógica para determinar si se está equipando un vestido al tener ya uno equipado (0.25 / 0.25)
+* No hay lógica para determinar que un collar puede equiparse con ciertos vestidos (0.0 / 0.25)
+* No hay lógica para incrementar el puntaje de estilo que da un bolso si es equipado con ciertos vestidos (0.0 / 0.25)
+* No hay lógica que limite las pulseras según el vestido equipado (0.0 / 1.0)
+* No hay lógica de desequipamiento de accesorios (0.0 / 0.25); en consecuencia, tampoco hay lógica que desequipe todos los accesorios si el vestido es desequipado (0.0 / 0.5)
+
+Total funcionalidad: 0.45 / 3.5
+
+* Dado que no hay lógica que satisfaga la funcionalidad, no puede haber consideración al diseño orientado a objetos aplicado (0.0 / 1.5)
+
+Total diseño orientado a objetos: 0.0 / 1.5
+
+
+Total: (0.45 / 5.0)
